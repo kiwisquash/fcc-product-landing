@@ -1,3 +1,28 @@
+#header {
+	width: 100vw;
+	background-color: white;
+	position: -webkit-sticky;
+	position: sticky;
+	top:0;
+}
+
+#intro {
+	/* margin-top:10vh; */
+}
+
+img {
+	width: 100%;
+}
+
+#nav-bar {
+}
+
+#header-img {
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
 
