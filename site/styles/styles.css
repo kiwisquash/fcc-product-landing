@@ -1,3 +1,8 @@
+#title {
+	font-size: 33px;
+	display: flex;
+}
+
 #header {
 	width: 100vw;
 	background-color: white;
