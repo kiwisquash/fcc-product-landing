@@ -47,7 +47,22 @@ body {
 	width: 100%;
 }
 
+.one-third {
+	text-align: center;
+	margin: auto;
+	width: 85vw;
+	height: 85vw;
+	overflow: hidden;
+}
 
+.one-third img {
+	height: 100%;
+}
+section {
+	padding: 10px;
+}
+
+	
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
 
