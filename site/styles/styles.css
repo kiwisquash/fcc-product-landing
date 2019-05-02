@@ -51,6 +51,30 @@ section {
 	padding: 10px;
 }
 
+
+#form {
+	font-size: large;
+	width: 100%;
+}
+
+.form-field {
+	display: block;
+	margin: auto;
+	width: 100%;
+	font-size: large;
+}
+
+#email {
+	max-width: 287px;
+	height: 1.75em;
+}
+
+#submit {
+	margin-top: 1em;
+	height: 2em;
+	max-width: 300px;
+}
+
 .one-third {
 	text-align: center;
 	margin: auto;
