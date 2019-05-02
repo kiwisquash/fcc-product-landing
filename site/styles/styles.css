@@ -47,6 +47,10 @@ body {
 	width: 100%;
 }
 
+section {
+	padding: 10px;
+}
+
 .one-third {
 	text-align: center;
 	margin: auto;
@@ -58,11 +62,31 @@ body {
 .one-third img {
 	height: 100%;
 }
-section {
-	padding: 10px;
+
+#for-bodyguards-img-container {
+	height: 100%;
+	margin-left: -50%;
+	overflow: hidden;
 }
 
-	
+#like-jackman-img-container {
+	height: 100%;
+	margin-left: -5%;
+	overflow: hidden;
+}
+
+#video {
+	width: 100%;
+	height: 100%;
+}
+
+#one-month-free-img-container {
+	height: 100%;
+	margin-left: -50%;
+	overflow: hidden;
+}
+
+
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
 
