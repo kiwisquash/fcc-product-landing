@@ -20,19 +20,29 @@ body {
 
 #title {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	justify-content: center;
-	align-items: center;
+	align-items: center ;
+	/* background-color: red; */
 }
 
 #header-img-container {
-	width: 65px;
+	/* display: inline-block; */
+	width: 60px;
+	/* background-color: yellow; */
 }
 
 #product-name-container {
-  width: 50%;
+  /* width: 50%; */
+	/* display: inline-block; */
 	text-transform: uppercase;
+	/* background-color: blue; */
 }
+
+#product-name-container	h1 {
+ 	margin: auto .25em auto auto;
+  font-size: 40px;
+	}
 
 #header-img {
 	width: 100%;
