@@ -1,9 +1,12 @@
 body {
+	/* padding-top: 140px; */
 	overflow-x: hidden;
 	width: 101vw;
 	margin: -1px;
 	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
+
+
 
 #header {
 	width: 100vw;
@@ -12,6 +15,7 @@ body {
 	position: sticky;
 	top:0;
 	left: 0;
+	z-index: 100;
 }
 
 #title {
@@ -48,9 +52,17 @@ body {
 }
 
 section {
-	padding: 10px;
+	padding: 0px 10px;
 }
 
+:target:before {
+	content: "";
+  /* background-color: red; */
+  display: block;
+	position: relative;
+  height: 140px;
+	margin: -140px 0 0 0 ;
+}
 
 #form {
 	font-size: large;
