@@ -99,10 +99,15 @@ section {
 
 .one-third {
 	text-align: center;
-	margin: auto;
+	margin: 2.5em auto 2em auto;
 	width: 85vw;
 	height: 85vw;
 	overflow: hidden;
+}
+
+.one-third h3 {
+	font-size: 16px;
+	margin: auto auto 0 auto;
 }
 
 .one-third img {
