@@ -31,12 +31,12 @@ blockquote {
 
 #header {
 	background-color: var(--header-background-color, #786792);
-	position: -webkit-sticky;
-	position: sticky;
+	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 100;
-	margin: -8px 0 0 -9px;
+	margin: -1px 0 0 -1px;
+	padding-bottom: 1em;
 }
 
 #title {
@@ -79,7 +79,6 @@ blockquote {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: var(--header-background-color, #786792);
 }
 
 .nav-link {
@@ -92,11 +91,12 @@ blockquote {
 section {
 	margin: -20px 0px 10px -10px;
 	width: 100%;
-	padding: 0px 20px 0 10px;
+	padding: 0px 30px 0 10px;
 }
 
 section h2 {
 	font-size: 25px;
+	text-transform: capitalize;
 	color: var(--sectitle-color);
 	text-shadow: 1px 1px 1px;
 	/* font-family: sans-serif; */
@@ -108,7 +108,7 @@ section h2 {
   display: block;
 	position: relative;
   height: 120px;
-	margin: -120px 0 0 0;
+	margin-top: -140px;i
 }
 
 #intro {
@@ -117,6 +117,7 @@ section h2 {
 	padding-top: 20px;
   padding-bottom: 20px;
 	height: 45vh;
+	margin-top: 100px;
 }
 
 #form {
