@@ -87,6 +87,14 @@ blockquote {
 	text-decoration: none;	
 }
 
+.nav-link:hover {
+	width: 100%;
+	color: var(--header-background-color, hsl(68.7, 66.7%, 85.9%));
+	background-color: var(--header-font-color, hsl(68.7, 66.7%, 85.9%));
+	text-decoration: none;	
+	font-size: x-large;
+	font-weight: bold;
+}
 
 section {
 	margin: -20px 0px 10px -10px;
