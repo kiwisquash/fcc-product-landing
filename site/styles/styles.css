@@ -1,13 +1,13 @@
 body {
 	/* padding-top: 140px; */
 	overflow-x: hidden;
-	font-family: monaco, monospace;
+	font-family: Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
+
 
 #header, #main, #footer {
 	width: 100vw;
 }
-
 
 #header {
 	background-color: white;
@@ -23,6 +23,7 @@ body {
 	flex-direction: row-reverse;
 	justify-content: center;
 	align-items: center ;
+	font-family: monaco, monospace;
 	/* background-color: red; */
 }
 
@@ -42,7 +43,7 @@ body {
 #product-name-container	h1 {
  	margin: auto .25em auto auto;
   font-size: 40px;
-	}
+}
 
 #header-img {
 	width: 100%;
@@ -63,6 +64,11 @@ body {
 
 section {
 	padding: 0px 10px;
+}
+
+section h2 {
+	font-size: 25px;
+	font-weight: bolder;
 }
 
 :target:before {
@@ -106,35 +112,42 @@ section {
 }
 
 .one-third h3 {
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: bolder;
 	margin: auto auto 0 auto;
 }
 
-.one-third img {
+.img-container {
 	height: 100%;
+	overflow: hidden;
+}
+
+.img-container img {
+	width: 100%;
 }
 
 #for-bodyguards-img-container {
-	height: 100%;
 	margin-left: -50%;
-	overflow: hidden;
+	margin-right: -30%;
 }
 
 #like-jackman-img-container {
-	height: 100%;
-	margin-left: -5%;
-	overflow: hidden;
+	margin-left: -10%;
+	margin-right: -10%;
+}
+
+blockquote {
+	background-color: gray;
+	font-style: italic;
 }
 
 #video {
-	width: 100%;
 	height: 100%;
 }
 
 #one-month-free-img-container {
-	height: 100%;
-	margin-left: -50%;
-	overflow: hidden;
+	margin-left: -40%;
+	margin-right: -10%;
 }
 
 
