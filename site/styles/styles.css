@@ -4,6 +4,7 @@
 	--background-color: hsl(266.7, 14.8%, 76.1%);
 	--font-color: hsl(26.7, 10.7%, 5.9%);
 	--sectitle-color: hsl(146.7, 10.7%, 5.9%);
+  --one-third-background: hsl(320.7, 10%, 66.8%);
 }
 
 body {
@@ -132,14 +133,20 @@ section h2 {
 }
 
 .one-third {
+	background-color: var(--one-third-background, hsl(200.7, 10%, 60.8%));
 	text-align: center;
 	margin: 2.5em auto 2em auto;
 	width: 85vw;
 	height: 85vw;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 1px;
+	box-shadow: 5px 5px 1px #000000;
 	overflow: hidden;
 }
 
 .one-third h3 {
+	padding: 10px;
 	font-size: 18px;
 	font-weight: bolder;
 	margin: auto auto 0 auto;
