@@ -15,6 +15,11 @@ body {
 	color: var(--font-color, #ECF3C3);
 }
 
+section p, h2 {
+  width: 87vw;
+	padding-left: 15px;
+}
+
 p {
 	text-align: justify;
 }
@@ -115,18 +120,28 @@ section h2 {
   /* background-color: red; */
   display: block;
 	position: relative;
-  height: 120px;
+  height: 140px;
 	margin-top: -140px;i
 }
+
 
 #intro {
 	background-image: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fil8.picdn.net%2Fshutterstock%2Fvideos%2F6059618%2Fthumb%2F8.jpg%3Fi10c%3Dimg.resize(height%3A160)&f=1");
 	background-size: cover;
-	padding-top: 20px;
+	/* padding-top: 10px; */
   padding-bottom: 20px;
-	height: 45vh;
-	margin-top: 100px;
+	/* height: 45vh; */
+	margin-top: 130px;
 }
+
+/* #intro:before { */
+/* 	content: ""; */
+/*   /1* background-color: red; *1/ */
+/*   display: block; */
+/* 	position: relative; */
+/*   height: 130px; */
+/* 	margin-top: -130px; */
+/* } */
 
 #form {
 	font-size: large;
@@ -200,7 +215,9 @@ section h2 {
 
 #GMO p {
 	text-align: center;
-	margin: 0;
+	margin: auto;
+	padding: 0;
+	width: 100%;
 }
 
 #GMO-line1 {
