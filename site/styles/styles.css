@@ -207,51 +207,55 @@ section h2 {
 }
 
 #GMO {
-	height: 100%;
+	height: 75%;
 	padding: 1em;
-	background-image: linear-gradient(to bottom right,orange,white);
+	background-image: linear-gradient(to right,var(--header-background-color),var(--background-color));
 	font-family: arial;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-#GMO p {
+.GMO-lines {
 	text-align: center;
-	margin: auto;
+	margin: 0 auto;
 	padding: 0;
-	width: 100%;
 }
 
 #GMO-line1 {
-	color: blue;
+	height: 15%;
+	color: hsl(68.7, 66.7%, 85.9%);
 	font-size: 25px;
 	font-weight: bold;
 }
 
 #GMO-line2 {
-	background-image: linear-gradient(to bottom right, gray, white);
-	padding: .25em;
+	height: 10%;
 	text-transform: lowercase;
 }
 
 #GMO-line3 {
-	color: red;
+	height: 15%;
+	color: hsl(248.7, 66.7%, 85.9%);
 	font-size: 25px;
 	font-weight: bold;
 }
 
 #GMO-line4 { 
-	background-image: linear-gradient(to bottom right, gray, white);
+	padding-top: 1em;
+	height: 25%;
 	font-size: 25px;
 }
 
 #fresh {
 	text-transform: uppercase;
-  background-image: linear-gradient(to right, red, orange, yellow, green, violet); 
+  background-image: linear-gradient(to right, hsl(68.7, 50%, 85.9%), hsl(248.7, 50%, 45.9%), black); 
   color: transparent;
   background-clip: text;
 }
 
 #GMO-line5 {
-	padding-top: 1em;
+	height: 25%;
 	font-size: 25px;
 	text-transform: uppercase;
 	font-weight: 900;
