@@ -19,7 +19,7 @@ blockquote {
 	font-style: italic;
 }
 
-#header, #main, #footer {
+#header, #main {
 	width: 101vw;
 }
 
@@ -203,6 +203,25 @@ section h2 {
 	font-weight: 900;
 }
 
+#crow-eggs-img-container {
+	margin-left: -15%;
+	margin-right: -15%;
+}
+
+#crow-eggs-img-container img {
+	margin-top: -10%;
+}
+
+#milk-img-container {
+	margin-left: -20%;
+	margin-right: -20%;
+	overflow: hide;
+}
+
+#milk-img-container img {
+	margin-top: -15%;
+}
+
 #video {
 	height: 100%;
 }
@@ -212,6 +231,18 @@ section h2 {
 	margin-right: -10%;
 }
 
+footer {
+	border-top-style: solid;
+	width: 102vw;
+	margin-left: -3vw;
+}
+
+footer p {
+	padding-left: 10px;
+	padding-right: 15px;
+	font-size: small;
+	text-align: center;
+}
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
