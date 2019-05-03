@@ -90,7 +90,9 @@ blockquote {
 
 
 section {
-	padding: 50px 10px 0 10px;
+	margin: -20px 0px 10px -10px;
+	width: 100%;
+	padding: 20px 20px 0 10px;
 }
 
 section h2 {
@@ -106,7 +108,14 @@ section h2 {
   display: block;
 	position: relative;
   height: 140px;
-	margin: -80px 0 0 0 ;
+	margin: -140px 0 0 0 ;
+}
+
+#intro {
+	background-image: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fil8.picdn.net%2Fshutterstock%2Fvideos%2F6059618%2Fthumb%2F8.jpg%3Fi10c%3Dimg.resize(height%3A160)&f=1");
+	background-size: cover;
+  padding-bottom: 20px;
+	height: 45vh;
 }
 
 #form {
