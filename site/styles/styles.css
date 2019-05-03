@@ -254,12 +254,12 @@ footer p {
 	text-align: center;
 }
 
-
 #animation-container {
 	width: 100%;
 	height: 100%;
 	padding: 10px;
-	background-color: cyan;
+	background-image: url("https://www.tonytextures.com/free-texture-gallery/sky/Sky_Clouds_Photo_Texture_A_P4120979.JPG");
+	/* background-color: cyan; */
   animation-name: fly;
   animation-duration: 2.9s;
   animation-iteration-count: infinite;  
