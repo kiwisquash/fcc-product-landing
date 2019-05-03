@@ -173,12 +173,13 @@ section h2 {
 }
 
 #GMO {
+	height: 100%;
 	padding: 1em;
 	background-image: linear-gradient(to bottom right,orange,white);
 	font-family: arial;
 }
 
-#GMO p{
+#GMO p {
 	text-align: center;
 	margin: 0;
 }
@@ -246,6 +247,10 @@ section h2 {
 #one-month-free-img-container {
 	margin-left: -40%;
 	margin-right: -10%;
+}
+
+#one-month-free-img-container img {
+	height: 100%;
 }
 
 footer {
