@@ -79,6 +79,11 @@ blockquote {
 	margin: auto;
 }
 
+#header-img:hover {
+	width: 120%;
+	background-color: var(--header-font-color);
+}
+
 #nav-bar {
 	margin: auto auto auto -8px;
 	display: flex;
