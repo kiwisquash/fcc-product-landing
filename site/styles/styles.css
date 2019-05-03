@@ -1,12 +1,19 @@
 :root {
-
+	--header-background-color: hsl(263.7, 17.3%, 24.8%);
+	/* --nav-background-color: hsl(266.7, 14.8%, 76.1%); */
+	/* --background-color: hsl(263.8, 27.7%, 37.5%); */
+	--nav-background-color: hsl(263.8, 27.7%, 37.5%);
+	--background-color: hsl(266.7, 14.8%, 76.1%);
+	--title-font-color: hsl(68.7, 66.7%, 85.9%);
+	--font-color: hsl(146.7, 10.7%, 25.9%);
 }
+
 body {
 	/* padding-top: 140px; */
 	overflow-x: hidden;
 	font-family: Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-	background-color: #5A457A;
-	color: #ECF3C3;
+	background-color: var(--background-color, #5A457A);
+	color: var(--font-color, #ECF3C3);
 }
 
 p {
@@ -24,7 +31,7 @@ blockquote {
 }
 
 #header {
-	background-color: #786792;
+	background-color: var(--header-background-color, #786792);
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
@@ -53,6 +60,7 @@ blockquote {
   /* width: 50%; */
 	/* display: inline-block; */
 	text-transform: uppercase;
+	color: var(--title-font-color, #ECF3C3);
 	/* background-color: blue; */
 }
 
@@ -72,16 +80,16 @@ blockquote {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: #C1B9CB;
+	background-color: var(--nav-background-color, #C1B9CB);
 }
 
 .nav-link {
 	width: 100%;
 }
 
+
 section {
-	margin-top: 50px;
-	padding: 0px 10px;
+	padding: 50px 10px 0 10px;
 }
 
 section h2 {
@@ -95,7 +103,7 @@ section h2 {
   display: block;
 	position: relative;
   height: 140px;
-	margin: -140px 0 0 0 ;
+	margin: -80px 0 0 0 ;
 }
 
 #form {
