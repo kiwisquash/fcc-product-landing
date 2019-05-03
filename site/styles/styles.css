@@ -134,14 +134,14 @@ section h2 {
 	margin-top: 130px;
 }
 
-/* #intro:before { */
-/* 	content: ""; */
-/*   /1* background-color: red; *1/ */
-/*   display: block; */
-/* 	position: relative; */
-/*   height: 130px; */
-/* 	margin-top: -130px; */
-/* } */
+#intro:before {
+	content: "";
+  /* background-color: red; */
+  display: block;
+	position: relative;
+  height: 130px;
+	margin-top: -130px;
+}
 
 #form {
 	font-size: large;
