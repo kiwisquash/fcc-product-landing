@@ -1,11 +1,9 @@
 :root {
 	--header-background-color: hsl(263.7, 17.3%, 24.8%);
-	/* --nav-background-color: hsl(266.7, 14.8%, 76.1%); */
-	/* --background-color: hsl(263.8, 27.7%, 37.5%); */
-	--nav-background-color: hsl(263.8, 27.7%, 37.5%);
+	--header-font-color: hsl(68.7, 66.7%, 85.9%);
 	--background-color: hsl(266.7, 14.8%, 76.1%);
-	--title-font-color: hsl(68.7, 66.7%, 85.9%);
-	--font-color: hsl(146.7, 10.7%, 25.9%);
+	--font-color: hsl(26.7, 10.7%, 5.9%);
+	--sectitle-color: hsl(146.7, 10.7%, 5.9%);
 }
 
 body {
@@ -60,7 +58,7 @@ blockquote {
   /* width: 50%; */
 	/* display: inline-block; */
 	text-transform: uppercase;
-	color: var(--title-font-color, #ECF3C3);
+	color: var(--header-font-color, #ECF3C3);
 	/* background-color: blue; */
 }
 
@@ -80,11 +78,13 @@ blockquote {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: var(--nav-background-color, #C1B9CB);
+	background-color: var(--header-background-color, #786792);
 }
 
 .nav-link {
 	width: 100%;
+	color: var(--header-font-color, hsl(68.7, 66.7%, 85.9%));
+	text-decoration: none;	
 }
 
 
@@ -94,7 +94,9 @@ section {
 
 section h2 {
 	font-size: 25px;
-	font-weight: bolder;
+	color: var(--sectitle-color);
+	text-shadow: 1px 1px 1px;
+	/* font-family: sans-serif; */
 }
 
 :target:before {
