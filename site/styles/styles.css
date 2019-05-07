@@ -13,6 +13,7 @@ body {
 	font-family: Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 	background-color: var(--background-color, #5A457A);
 	color: var(--font-color, #ECF3C3);
+	scroll-behavior: smooth;
 }
 
 section p, h2 {
@@ -189,7 +190,6 @@ section h2 {
 	border-style: solid;
 	border-radius: 3px;
 	border-width: 1px;
-	box-shadow: 5px 5px 1px #000000;
 	overflow: hidden;
 }
 
@@ -483,16 +483,63 @@ animation-play-state: inherit;
 
 
  /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
+@media only screen and (max-width: 600px) {
+
+	.one-third {
+		box-shadow: 5px 5px 1px #000000;
+	}
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+
+.one-third {
+	background-color: var(--one-third-background, hsl(200.7, 10%, 60.8%));
+	text-align: center;
+	margin: 0;
+	width: 265px;
+	height: 265px;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 1px;
+	overflow: hidden;
+}
+
+.thirds-container {
+	/* background-color: red; */
+	display: grid;
+	grid-template-columns: auto repeat(4, 132.5px) auto; 
+	grid-template-rows: auto auto; 
+	grid-gap: 8px 8px;
+}
+
+.top-left {
+  grid-area: 1/2/2/4;
+}
+
+.top-right {
+  grid-area: 1/4/2/6;
+}
+
+.bottom-middle {
+  grid-area: 3/3/4/5;
+}
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {
 
+.thirds-container {
+	background-color: red;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...} 
