@@ -21,9 +21,6 @@ section p, h2 {
 	padding-left: 15px;
 }
 
-p {
-	text-align: justify;
-}
 
 blockquote {
 	text-align: justify;
@@ -482,26 +479,26 @@ animation-play-state: inherit;
 
 
 
- /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+ /* Extra small devices (phones, 599px and down) */
+@media only screen and (max-width: 599px) {
 
-	.one-third {
-		box-shadow: 5px 5px 1px #000000;
-	}
+p {
+	text-align: justify;
+}
+
+.one-third {
+	box-shadow: 5px 5px 1px #000000;
+}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
 .one-third {
-	background-color: var(--one-third-background, hsl(200.7, 10%, 60.8%));
-	text-align: center;
 	margin: 0;
 	width: 265px;
 	height: 265px;
-	border-style: solid;
-	border-radius: 3px;
-	border-width: 1px;
 	overflow: hidden;
 }
 
@@ -510,7 +507,8 @@ animation-play-state: inherit;
 	display: grid;
 	grid-template-columns: auto repeat(4, 132.5px) auto; 
 	grid-template-rows: auto auto; 
-	grid-gap: 8px 8px;
+	grid-gap: 12px 8px;
+	margin: 2em 0;
 }
 
 .top-left {
@@ -522,8 +520,21 @@ animation-play-state: inherit;
 }
 
 .bottom-middle {
-  grid-area: 3/3/4/5;
+  grid-area: 2/3/3/5;
 }
+
+.bottom-left {
+  grid-area: 2/2/3/4;
+}
+
+.bottom-right {
+  grid-area: 2/4/3/6;
+}
+
+.top-middle {
+  grid-area: 1/3/2/5;
+}
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
