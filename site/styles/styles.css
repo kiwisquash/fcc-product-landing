@@ -267,6 +267,7 @@ section h2 {
   background-image: linear-gradient(to right, hsl(68.7, 50%, 85.9%), hsl(248.7, 50%, 45.9%), black); 
   color: transparent;
   background-clip: text;
+	-webkit-background-clip: text;
 }
 
 #GMO-line5 {
