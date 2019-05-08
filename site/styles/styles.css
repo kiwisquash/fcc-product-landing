@@ -221,7 +221,7 @@ section h2 {
 	margin-right: -10%;
 }
 
-#GMO {
+.GMO {
 	height: 75%;
 	padding: 1em;
 	background-image: linear-gradient(to right,var(--header-background-color),var(--background-color));
@@ -231,7 +231,7 @@ section h2 {
 	justify-content: center;
 }
 
-.GMO-lines {
+.GMO-line {
 	text-align: center;
 	margin: 0 auto;
 	padding: 0;
