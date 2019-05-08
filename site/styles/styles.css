@@ -532,6 +532,14 @@ p {
 
 }
 
+@media only screen and (max-width: 767px) {
+
+#intro-image {
+ display: none;
+}
+
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
@@ -583,7 +591,37 @@ p {
 }
 
 #intro {
+	width: 101vw;
 	margin-top: 66px;
+	padding: 0;
+	overflow: hidden;
+}
+
+#intro-inner-container {
+	display: flex;
+	align-items: center;
+	padding: 0;
+	margin-bottom: -10px;
+}
+
+#intro-image {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#intro-image img {
+	width: 120%;
+	margin: 0;
+}
+
+#subscribe {
+	width: 45%;
+	max-width: 400px;
+}
+
+#subscribe p {
+	width: 90%;
 }
 
 }
