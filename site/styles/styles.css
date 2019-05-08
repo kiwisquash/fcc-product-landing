@@ -54,17 +54,12 @@ blockquote {
 }
 
 #header-img-container {
-	/* display: inline-block; */
 	width: 60px;
-	/* background-color: yellow; */
 }
 
 #product-name-container {
-  /* width: 50%; */
-	/* display: inline-block; */
 	text-transform: uppercase;
 	color: var(--header-font-color, #ECF3C3);
-	/* background-color: blue; */
 }
 
 #product-name-container	h1 {
@@ -125,7 +120,7 @@ section h2 {
   display: block;
 	position: relative;
   height: 150px;
-	margin-top: -150px;i
+	margin-top: -150px;
 }
 
 
@@ -539,6 +534,57 @@ p {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
+#header {
+	margin: 0;
+	padding: 0;
+}
+
+#header-inner-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: .5em;
+}
+
+#title {
+	width: 50%;
+	height: 50px;
+	justify-content: flex-end;
+}
+
+#nav-bar-container {
+	width: 50%;
+	height: 50px;
+}
+
+#nav-bar {
+	margin: auto;
+	width: 100%;
+	flex-direction: row;
+	align-items: stretch;
+}
+
+.nav-link {
+	/* background-color: red; */
+	/* width: 100%; */
+	padding-top: .5em;
+	margin: 0 .5em;
+}
+
+.nav-link:hover {
+	font-size: large;
+}
+
+:target:before {
+  height: 66px;
+	margin-top: -66px;
+}
+
+#intro {
+	margin-top: 66px;
+}
 
 }
 
